@@ -7,7 +7,8 @@
 //
 
 #import "Json+Qqc.h"
-#import "QqcBaseModel.h"
+
+class QqcBaseModel
 
 CF_INLINE NSString *parseObj2JsonString(id obj);
 CF_INLINE id parseString2JsonObject(NSString *string);
