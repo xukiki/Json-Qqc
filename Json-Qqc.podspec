@@ -6,11 +6,12 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "Json-Qqc"
-  s.version      = "1.0.1"
+  s.version      = "1.0.4"
   s.summary      = "Json-Qqc"
   s.homepage     = "https://github.com/xukiki/Json-Qqc"
   s.source       = { :git => "https://github.com/xukiki/Json-Qqc.git", :tag => "#{s.version}" }
   
   s.source_files  = ["Json-Qqc/*.{h,m}"]
+  s.dependency  = "QqcBaseModel"
 
 end
